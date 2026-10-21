@@ -1,4 +1,4 @@
-def docker_login(String CredId){
+def call(String CredId){
 withCredentials([usernamePassword(
     credentialsId: "${CredId}",
     usernameVariable: 'USERNAME',
